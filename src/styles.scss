@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+$main-color: #0aad0a;
+$light-color: #f0f3f2;
+$shadow:rgba(145,158,171,0.2),rgba(145,158,171,0.14),rgba(145,158,171,0.12);
+$font-family:"Encode Sans Expanded", Sans-serif;
+$rating-color:#ffc908;
+$main-transition:0.8s;
+
+.rating-color{ 
+    color: $rating-color;
+}
+.text-main {
+    color: $main-color
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.bg-main-light {
+    background-color: $light-color;
+}
+
+.main-btn {
+    border: unset;
+    background-color: $main-color;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.main-btn:disabled{
+    background-color: #07800798;
+    color: #ffffff67;
+}
+
+.font-sm {
+    font-size: 12px;
+}
+
+.active-link {
+    background-color: $main-color;
+    color: #fff;
+    border-radius: 5px;
+}
